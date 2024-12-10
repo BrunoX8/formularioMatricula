@@ -1,4 +1,4 @@
-label + .radio-wrapper {
+label+.radio-wrapper {
     margin-top: 1rem;
 }
 
@@ -11,6 +11,7 @@ label + .radio-wrapper {
 .radio-inner {
     border: 1px solid var(--stroke-default);
     border-radius: .5rem;
+
     display: grid;
     justify-items: center;
     gap: .5rem;
@@ -38,7 +39,8 @@ label + .radio-wrapper {
         left: .5rem;
     }
 
-    &:hover, &focus-within {
+    &:hover,
+    &:focus-within {
         border: 1px solid var(--stroke-highlight);
 
         & .radio-image {
